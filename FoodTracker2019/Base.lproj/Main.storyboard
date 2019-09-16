@@ -109,6 +109,11 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="tX4-7C-9Be" id="5cz-5p-lGp"/>
+                                    <outlet property="photoImageView" destination="tX4-7C-9Be" id="bTK-ZV-eC7"/>
+                                    <outlet property="ratingControl" destination="aC7-ac-AdH" id="m3b-tK-I05"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
