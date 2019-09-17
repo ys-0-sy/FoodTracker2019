@@ -76,16 +76,16 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Meal Table View Controller-->
         <scene sceneID="jfj-sz-pel">
             <objects>
-                <tableViewController id="HJJ-1c-HHK" sceneMemberID="viewController">
+                <tableViewController id="HJJ-1c-HHK" customClass="MealTableViewController" customModule="FoodTracker2019" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zOS-d6-5lg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="mO9-Da-UPA" customClass="MealTableViewCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="mO9-Da-UPA" customClass="MealTableViewCell" customModule="FoodTracker2019" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mO9-Da-UPA" id="f0I-QE-37z">
@@ -110,8 +110,8 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="nameLabel" destination="tX4-7C-9Be" id="5cz-5p-lGp"/>
-                                    <outlet property="photoImageView" destination="tX4-7C-9Be" id="bTK-ZV-eC7"/>
+                                    <outlet property="nameLabel" destination="DSz-je-ZHo" id="E4u-IW-2z3"/>
+                                    <outlet property="photoImageView" destination="tX4-7C-9Be" id="oCd-pf-aoN"/>
                                     <outlet property="ratingControl" destination="aC7-ac-AdH" id="m3b-tK-I05"/>
                                 </connections>
                             </tableViewCell>
